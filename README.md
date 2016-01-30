@@ -1,4 +1,4 @@
-Sequential Text Reading
+Ringeader (Arabic Sequential Text Reading)
 =======================
 
 Software to analyze video of scanned printed text, running OCR and turning it into speech.
