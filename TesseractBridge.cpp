@@ -29,7 +29,7 @@ void testtess() {
 
 	cout << "photo " << img.size() << endl;
 
-	int rc = api.Init(tessdata_dir.c_str(), "eng", tesseract::OEM_DEFAULT);
+	int rc = api.Init(tessdata_dir.c_str(), "ara", tesseract::OEM_DEFAULT);
 	if (rc) {
 		cerr << "Could not initialize tesseract.\n";
 		exit(1);
@@ -64,7 +64,7 @@ void TesseractBridge::init() {
 //    }
 //    api.End();
 
-    int rc = api.Init(tessdata_dir.c_str(), "eng", tesseract::OEM_DEFAULT);
+    int rc = api.Init(tessdata_dir.c_str(), "ara", tesseract::OEM_DEFAULT);
     if (rc) {
         cerr << "Could not initialize tesseract.\n";
         exit(1);
