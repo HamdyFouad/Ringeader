@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6) 
-project (TextReading) 
+project (Ringeader) 
   
 find_package(OpenGL REQUIRED) 
 find_package(Qt4 REQUIRED QtGui QtOpenGL QtXml Phonon) 
@@ -121,7 +121,7 @@ find_library(LIBESPEAK_LIBRARIES
 ######################################## 
   
   
-add_executable(TextReading 
+add_executable(Ringeader 
         ${DAD_SOURCES} 
         ${DAD_HEADERS} 
         ${MY_UI_HDRS} 
@@ -131,7 +131,7 @@ add_executable(TextReading
     ) 
   
   
-target_link_libraries(TextReading 
+target_link_libraries(Ringeader 
         ${OpenGL_LIBS} 
         ${QT_LIBRARIES} 
         ${QGLVIEWER} 

@@ -8,7 +8,7 @@
 //
 
 
-#include "viewcontroller.h"
+#include "Viewcontroller.h"
 #include "OpenCVCameraThread.h"
 #include "QTSequentialTextReader.h"
 

@@ -16,7 +16,7 @@
 #include <QMutex>
 #include <QMetaType>
 #include <QQueue>
-
+#include "ArduinoDriver.h"
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
@@ -24,7 +24,7 @@
 using namespace cv;
 
 #include "QTSequentialTextReader.h"
-#include "ArduinoDriver.h"
+
 
 #define PROTECT(m,o) m.lock(); o m.unlock();
 
